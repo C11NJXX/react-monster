@@ -47,12 +47,22 @@
 // }
 
 // import UseRef from "./hooks/useRef/UseRef";
-import UseRefExercise from "./hooks/useRef/UseRefExercise";
+// import UseRefExercise from "./hooks/useRef/UseRefExercise";
+
+// export default function App() {
+//   return (
+//     <>
+//       <UseRefExercise />
+//     </>
+//   );
+// }
+
+import Custom from "./hooks/customHooks/Custom";
 
 export default function App() {
   return (
     <>
-      <UseRefExercise />
+      <Custom />
     </>
   );
 }
