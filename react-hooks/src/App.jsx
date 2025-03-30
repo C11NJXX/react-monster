@@ -26,12 +26,22 @@
 // };
 // export default App;
 
-import UseReducer from "./hooks/useReducer/UseReducer";
+// import UseReducer from "./hooks/useReducer/UseReducer";
+
+// export default function App() {
+//   return (
+//     <>
+//       <UseReducer />
+//     </>
+//   );
+// }
+
+import UseReducerExercise from "./hooks/useReducer/UseReducerExercise";
 
 export default function App() {
   return (
     <>
-      <UseReducer />
+      <UseReducerExercise />
     </>
   );
 }
