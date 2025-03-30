@@ -57,12 +57,23 @@
 //   );
 // }
 
-import Custom from "./hooks/customHooks/Custom";
+// import Custom from "./hooks/customHooks/Custom";
+
+// export default function App() {
+//   return (
+//     <>
+//       <Custom />
+//     </>
+//   );
+// }
+
+import UseId from "./hooks/useId/UseId";
 
 export default function App() {
   return (
     <>
-      <Custom />
+      <UseId />
+      <UseId />
     </>
   );
 }
