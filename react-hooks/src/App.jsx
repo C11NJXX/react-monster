@@ -36,12 +36,22 @@
 //   );
 // }
 
-import UseReducerExercise from "./hooks/useReducer/UseReducerExercise";
+// import UseReducerExercise from "./hooks/useReducer/UseReducerExercise";
+
+// export default function App() {
+//   return (
+//     <>
+//       <UseReducerExercise />
+//     </>
+//   );
+// }
+
+import UseRef from "./hooks/useRef/UseRef";
 
 export default function App() {
   return (
     <>
-      <UseReducerExercise />
+      <UseRef />
     </>
   );
 }
