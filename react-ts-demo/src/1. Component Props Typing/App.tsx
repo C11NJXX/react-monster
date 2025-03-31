@@ -1,6 +1,6 @@
+import User from "./Components/User";
 import Child from "./Components/Child";
 import Person from "./Components/Person";
-import User from "./Components/User";
 
 const App = () => {
   return (
