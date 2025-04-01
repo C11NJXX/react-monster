@@ -1,5 +1,11 @@
+import Button from "./components/Button";
+
 const App = () => {
-  return <div className="text-green-300">App</div>;
+  return (
+    <>
+      <Button />
+    </>
+  );
 };
 
 export default App;
